@@ -5,6 +5,8 @@
 #
 """ Userbot module for getting information about the server. """
 
+
+
 import time
 from asyncio import create_subprocess_exec as asyncrunapp
 from asyncio.subprocess import PIPE as asyncPIPE
@@ -168,11 +170,12 @@ async def amireallyalive(alive):
         f"⚜ sʜᴀᴅᴏᴡ      ≒ {DEFAULTUSER}\n"
         f"⚜ ᴘʏᴛʜᴏɴ      ≒ {python_version()}\n"
         f"⚜ ᴛᴇʟᴇᴛʜᴏɴ    ≒ {version.__version__}\n"
-        
-        
-        f"⚜ ʀᴇᴘᴏ        ≒ [13Slave](https://github.com/molana062/NightCore)\n"
-        f"⚜ ᴏᴡɴᴇʀ       ≒ [Molana](https://t.me/betterthaanhecan)\n"
-        f"⚜ ʙᴀsᴇ        ≒ [NightCore](https://github.com/IrhamFadzillah/NightCore)\n"
+        f"⚜ Uptime    ≒ {uptime}\n"
+        f" \n"
+
+    
+        f"⚜ Mol       ≒ [Molana](https://t.me/betterthaanhecan)\n"
+       
         "`▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰`\n"
     )
     if ALIVE_LOGO:
