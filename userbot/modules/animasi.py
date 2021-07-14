@@ -79,10 +79,11 @@ CMD_HELP.update(
     {
         "animasi2": "`.kcg`\
     \nUsage: bot.\
-    
-
     \n\n`.punten` ; `.pantau`\
     \nUsage: liat aja.\
+
+
+
     
 
 
